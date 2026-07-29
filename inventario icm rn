@@ -1,0 +1,187 @@
+Frontend:
+- HTML5
+- CSS3 (layout moderno e responsivo)
+- JavaScript
+- Bootstrap 5
+
+Backend:
+- PHP 8
+- MySQL
+
+Requisitos do sistema:
+
+1. Dashboard
+- Total de equipamentos
+- Equipamentos em uso
+- Equipamentos disponíveis
+- Equipamentos em manutenção
+- Equipamentos emprestados
+- Gráficos de status
+
+2. Cadastro de equipamentos
+Campos:
+- Código patrimonial
+- QR Code
+- Código de barras
+- Categoria
+- Marca
+- Modelo
+- Número de série
+- Descrição
+- Localização
+- Estado de conservação
+- Data de aquisição
+- Valor
+- Garantia
+- Fornecedor
+- Observações
+- Foto do equipamento
+
+Categorias:
+- Mesa de Som
+- Caixa Ativa
+- Caixa Passiva
+- Monitor de Palco
+- Microfone com fio
+- Microfone sem fio
+- Headset
+- Direct Box
+- Amplificador
+- Equalizador
+- Compressor
+- Processador Digital
+- Notebook
+- Projetor
+- Cabo XLR
+- Cabo P10
+- Cabo Speakon
+- Cabo HDMI
+- Pedestal
+- Fone de Ouvido
+- Instrumentos
+- Iluminação
+- Outros
+
+3. Controle de movimentação
+Registrar:
+- Entrada
+- Saída
+- Empréstimo
+- Devolução
+- Manutenção
+- Baixa
+
+Informações:
+- Data
+- Responsável
+- Destino
+- Evento
+- Observações
+
+4. Controle de manutenção
+- Equipamento
+- Tipo de manutenção
+- Problema
+- Solução
+- Técnico
+- Data de entrada
+- Data de saída
+- Valor
+- Situação
+
+5. Inventário
+- Conferência física
+- Data
+- Responsável
+- Divergências
+- Relatório
+
+6. Pesquisa
+Pesquisar por:
+- Nome
+- Código
+- Marca
+- Categoria
+- Número de série
+- Localização
+- QR Code
+
+7. Relatórios
+- PDF
+- Excel
+- Impressão
+
+Relatórios:
+- Equipamentos por categoria
+- Equipamentos em manutenção
+- Equipamentos emprestados
+- Histórico de movimentação
+- Inventário completo
+- Equipamentos por local
+
+8. Controle de usuários
+Perfis:
+- Administrador
+- Técnico
+- Operador
+- Consulta
+
+Login com senha criptografada.
+
+9. Banco de dados
+Criar automaticamente todas as tabelas MySQL.
+
+10. Interface
+- Tema moderno
+- Menu lateral
+- Dashboard com cards
+- Ícones Bootstrap Icons
+- Responsivo
+- Modo escuro
+- Pesquisa instantânea
+- Paginação
+
+11. Funcionalidades extras
+- Leitura de QR Code pela câmera
+- Geração automática de QR Code
+- Impressão de etiquetas
+- Upload de fotos
+- Backup do banco
+- Registro de logs
+- Histórico completo de alterações
+- Notificações de garantia vencendo
+- Alertas de equipamentos em manutenção
+
+12. API
+Criar API REST para:
+- Listar equipamentos
+- Cadastrar
+- Atualizar
+- Excluir
+- Consultar movimentações
+
+13. Segurança
+- Proteção contra SQL Injection
+- Proteção contra XSS
+- CSRF Token
+- Sessões seguras
+- Validação de formulários
+
+14. Estrutura do projeto
+Organizar em arquitetura MVC:
+- controllers/
+- models/
+- views/
+- assets/
+- uploads/
+- api/
+- database/
+
+15. Entregáveis
+Gerar:
+- Código completo
+- Banco de dados SQL
+- Arquivo README.md
+- Manual de instalação
+- Comentários no código
+- Sistema pronto para produção.
